@@ -26,13 +26,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
   btnYes.addEventListener('click', () => {
     title.innerHTML = 'Урааа, спасибо!';
-    gif.src = "/img/2.gif";
+    gif.src = "img/2.gif";
     btnYes.style.display = 'none';
     btnNo.style.display = 'none';
 
     setTimeout(() => {
       title.innerHTML = 'Ты будешь моей валентинкой?';
-      gif.src = "/img/1.gif";
+      gif.src = "img/1.gif";
       btnYes.style.display = 'block';
       btnNo.style.display = 'block';
       btnNo.style.left = `auto`;

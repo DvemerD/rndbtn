@@ -74,3 +74,13 @@ body {
   width: 250px;
   margin: 0 auto;
 }
+
+@media (max-width: 560px) {
+  #btnYes {
+    left: 15%;
+  }
+
+  #btnNo {
+    right: 15%;
+  }
+}
